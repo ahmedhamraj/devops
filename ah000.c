@@ -15,7 +15,8 @@ int main()
 		printf("overweight");
 	else if(bmi>=18.5)
 		printf("normal");
-	
+	else
+		printf("underweight");
 	return 0;
 }
 		
